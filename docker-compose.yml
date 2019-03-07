@@ -1,0 +1,7 @@
+
+version: '2'
+services:
+  web:
+    image: oojiact/helloworld:13
+    ports:
+     - "80:8005"
